@@ -13,10 +13,12 @@ import java.util.Date;
 @Builder
 public class Task {
 
-    private long id;
+    private int id;
     private String name;
     private String description;
-    private User user;
     private TaskStatus status;
     private Date deadline;
+    private int userId;
+    private User user;
+    private boolean isExpired;
 }

@@ -10,7 +10,7 @@ public class DBConnectionProvider {
     private Connection connection;
 
     private final  String DRIVER_NAME = "com.mysql.cj.jdbc.Driver";
-    private final String DB_URL = "jdbc:mysql://localhost:3306/todo?useUnicode=true&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+    private final String DB_URL = "jdbc:mysql://localhost:3306/task_management?useUnicode=true&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     private final String DB_USERNAME = "root";
     private final String DB_PASSWORD = "Nona.Asatryan1990";
 
